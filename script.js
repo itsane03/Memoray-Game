@@ -1,5 +1,5 @@
 const symbol_array = ['❤️','🎶','😎','🤦‍♀️','💖','👍','💕','😭'];
-let card_array = [...symbol_array, ...symbol_array];  // Duplicate the symbols
+let card_array = [...symbol_array, ...symbol_array]; 
 
 
 
