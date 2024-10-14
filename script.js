@@ -20,7 +20,7 @@ let isBoardLocked = false;
 
 function createBoard() {
     const gameboard = document.getElementById('game-board');
-    card_array = shuffle(card_array);  // Shuffle the cards
+    card_array = shuffle(card_array); 
 
     card_array.forEach(symbol => {
         const card = document.createElement('div');
